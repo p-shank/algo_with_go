@@ -1,1 +1,1 @@
-# repo for algorithms implementation in golang.
+# repo for different algorithms implementation in golang.
