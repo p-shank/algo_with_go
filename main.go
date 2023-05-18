@@ -1,13 +1,12 @@
 package main
 
 import (
+	"algo_with_go/sortalgo"
 	"fmt"
-	"sortalgo"
 )
 
 func main() {
-	items := []int{2, 3, 5, 1, 4}
+	items := []int{5, 4, 3, 2, 1}
 	sorted := sortalgo.Sort(items)
-
 	fmt.Println("sorted array: ", sorted)
 }
