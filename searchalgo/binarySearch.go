@@ -1,13 +1,13 @@
-package main
+package searchalgo
 
 import "fmt"
 
-func main() {
-	items := []int{1, 2, 3, 4, 5, 6, 7}
-	position, steps := search(items, 5)
-	fmt.Println("position of element", position)
-	fmt.Println("total steps: ", steps)
-}
+// func main() {
+// 	items := []int{1, 2, 3, 4, 5, 6, 7}
+// 	position, steps := search(items, 5)
+// 	fmt.Println("position of element", position)
+// 	fmt.Println("total steps: ", steps)
+// }
 
 func search(items []int, item int) (int, int) {
 	low, high := 0, len(items)-1
