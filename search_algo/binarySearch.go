@@ -1,4 +1,4 @@
-package searchalgo
+package search_algo
 
 import "fmt"
 

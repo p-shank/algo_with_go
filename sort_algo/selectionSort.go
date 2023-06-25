@@ -1,4 +1,4 @@
-package sortalgo
+package sort_algo
 
 import "fmt"
 
